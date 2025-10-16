@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins
+}
+
+body {
+    background-color: white;
+
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.navbar {
+    padding: 20px 0 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar .menu ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+}
+
+.menu ul li a:hover{
+    color: orangered;
+}
+
+
+.hub a {
+    background-color: orange;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.hub a.kotak {
+    color: white;
+}
+
+.hub a:hover {
+    background-color: navy
+}
+
+.hub a.kotak:hover {
+     color: white;
+}
+
+.logo h1 {
+    margin-left: 150px;
+}
+
+.kiri h1 {
+    margin-bottom: 20px;
+}
+
+.kiri ul {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    list-style-type: none;
+}
+
+.semua {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.all {
+    color: navy;
+    width: 100%;
+    background-color: violet;
+}
+
+.all h3 {
+    color: orange;
+}
+
+.all ul li {
+    color: gray; 
+}
+
+.foto {
+    width: 1px;
+    margin: auto;
+    background-color: violet;
+}
+
+.kontak {
+    display: flex;
+    margin: 20px 0px 0px 0px;
+    text-decoration: none;
+}
+
+
+.program  {
+    color: rgb(0, 0, 183);
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    border-width: 2px;
+   text-decoration: none;
+   margin-right: 40px;
+}
+
+.program a {
+    text-decoration: none;
+}
+
+.daftar {
+    color: white;
+    background-color: rgb(235, 201, 53);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.kontak .daftar a {
+    text-decoration: none;
+}
+
+.jawa {
+    color: navy;
+}
+
+.hero {
+    display: flex;
+    gap: 100px;
+    width: 70%;
+    margin: auto;
+    color: navy;
+}
+
+.kiri h3 {
+    color: orange;
+}
+
+.kiri ul li {
+    color: gray;
+}
+
+.kalimantan {
+    color: navy;
+}
+
+.sulawesi {
+    width: 70%;
+    margin: 50px 40px 30px 250px;
+
+}
+
+.sponsor {
+    display: flex;
+    margin: auto;
+    gap: 100px;
+    width: 40%;
+    justify-content: center;
+}
+
+.ITXPRO {
+    color: navy;
+    margin: 70px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.papua {
+    color: navy;
+    margin: 20px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    font-size: small
+}
+
+.container_galery {
+    max-width: 1100px;
+    margin: auto;
+     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 70px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.filter-button {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.filter-btn {
+    border: 1px solid #ddd;
+    background: none;
+    color: #555;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.filter-btn.active,
+.filter-btn:hover {
+    background-color: #ff6b00;
+    color: white;
+    border-color: #ff6b00;
+}
+
+.galery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gambar {
+    width: 30%;
+    border-radius: 12px;
+    transform: scale(1);
+    transition: all 0.5s ease;
+    margin: auto;      
+}
+
+.gambar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.gambar:hover{
+    transform: scale(1.05);
+
+}
