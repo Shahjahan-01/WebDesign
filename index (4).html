@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <!-- Demo styles -->
+  <style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #000;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 50%;
+      height: 50%;
+      margin-top: 200px;
+      border-radius: 70px;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #444;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 70px;
+    }
+
+    .kalimat {
+      position: absolute;
+      margin-bottom: -450px;
+      margin-left: -150px;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 70px;
+      filter: brightness(50%);
+    }
+
+    .swiper :hover {
+      filter: brightness(100%);
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="https://cdn2.uzone.id//assets/uploads/UZONEINC/games/Genshin_Impact/arlecchino-genshin.jpg?download=false&resolution=HD">
+        <div class="kalimat">Arlecchino</div>
+      </div>
+      <div class="swiper-slide"><img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/12/genshin-impact-mavuika-kit-explained.jpg?q=70&fit=crop&w=1600&h=1100&dpr=1">
+      <div class="kalimat">Mavuika</div></div>
+      <div class="swiper-slide"><img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/12/genshin-impact-hu-tao-skin-release-date-and-price.jpg?q=70&fit=crop&w=1600&h=1100&dpr=1">
+      <div class="kalimat">Hu Tao</div></div>
+      <div class="swiper-slide"><img src="https://cdn.oneesports.gg/cdn-data/2024/10/GenshinImpact_Xilonen_OfficialArt_Wallpaper_51_Livestream-1024x576.jpg">
+      <div class="kalimat">Xilonen</div></div>
+      <div class="swiper-slide"><img src="https://admin.esports.gg/wp-content/uploads/2024/07/Ellen-Joe-in-Zenless-Zone-Zero-Skills-Talents-Banner-1-968x544.jpg">
+      <div class="kalimat">Ellen Joe</div></div>
+      <div class="swiper-slide"><img src="https://static0.srcdn.com/wordpress/wp-content/uploads/2023/10/honkai-star-rail-topaz-character-ascension-materials.jpg?q=50&fit=crop&w=1008&h=693&dpr=1.5">
+      <div class="kalimat">Topaz</div></div>
+      <div class="swiper-slide"><img src="https://static.wikitide.net/bluearchivewiki/f/f9/Shiroko%EF%BC%8ATerror.png"><div class="kalimat">Shiroko Terror</div></div>
+      <div class="swiper-slide">Slide 8</div>
+      <div class="swiper-slide">Slide 9</div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+</body>
+
+</html>
