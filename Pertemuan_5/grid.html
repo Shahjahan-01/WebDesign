@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-areas: "konten1 konten2 konten3 konten4";
+        }
+
+        .container .satu {
+            grid-area: konten3;
+        }
+
+        .container .dua {
+            grid-area: konten2;
+        }
+
+        .container .tiga {
+            grid-area: konten1;
+        }
+
+        .container .empat {
+            grid-area: konten4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="satu">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur molestias id doloribus inventore quod officiis veritatis deserunt nulla dolore, omnis, saepe, necessitatibus minima soluta fugit alias adipisci asperiores totam iure!
+        </div>
+        <div class="dua">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque tenetur quae unde earum perspiciatis vero, necessitatibus itaque eligendi error, aliquid dolorum esse, beatae recusandae qui fugit delectus exercitationem. Modi, suscipit?
+        </div>
+        <div class="tiga">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error quidem nam expedita sequi ipsam saepe et, provident excepturi ipsa similique nesciunt reprehenderit minus perspiciatis? Iure accusamus eligendi dolore molestiae perspiciatis?
+        </div>
+        <div class="empat">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, vero atque, magnam soluta exercitationem repellendus aperiam incidunt sequi ab sunt pariatur rerum et tempore facilis porro eius id suscipit ratione.
+        </div>
+    </div>
+    <div class="container2">
+        .b
+    </div>
+    
+</body>
+</html>

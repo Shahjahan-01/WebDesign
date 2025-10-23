@@ -489,3 +489,180 @@ body {
     color: navy;
     margin-bottom: 37px;
 }
+
+.jurusanIT {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.jurusanIT h2 {
+  color: #151760;
+  font-size: 2.5em;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.jurusanIT p {
+  color: #555;
+  font-size: 1.1em;
+  margin-bottom: 40px;
+}
+
+.containerIT {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: nowrap;  /* tetap sejajar di desktop */
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.card {
+  background: #f8f9fc;
+  border-radius: 20px;
+  padding: 25px;
+  width: 320px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.IT {
+  background: #fbb515;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.card ul {
+  text-align: left;
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.card ul li {
+  margin: 8px 0;
+  position: relative;
+  padding-left: 25px;
+}
+
+
+.btn {
+  display: block;
+  background: #0d0c48;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  background: #1a1a7a;
+  transform: translateY(-3px);
+}
+
+.card {
+    width: 90%;
+  }
+
+.berfokus{
+    margin-top: 20px;
+    margin-left: -10px;
+}
+
+.portoRPL {
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.portoRPL h1 {
+    font-size: 20px;
+    cursor: pointer;
+    color: navy;
+    margin-bottom: 12px;
+}
+
+.portoRPL span {
+    color: navy;
+}
+
+.portoRPL .image01 span {
+    font-size: 14px;
+}
+
+.portoRPL .image01 p {
+    color: white;
+    background-color: orange;
+    border-radius: 10px;
+    padding: 9px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.portoRPL .image02 h1 {
+    margin-bottom: 10px;
+}
+
+.portoRPL .image02 p {
+    color: white;
+    background-color: orange;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.portoRPL .image03 p {
+    color: white;
+    background-color: orange;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.portoRPL .image04 p {
+    color: white;
+    background-color: orange;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.portoRPL .image03 h1 {
+    font-size: 20px;
+    cursor: pointer;
+    color: navy;
+    margin-bottom: 9px;
+}
+
+.portoRPL .image04 h1 {
+    font-size: 20px;
+    cursor: pointer;
+    color: navy;
+    margin-bottom: 9px;
+}
+
+.portoRPL h2 {
+    font-size: 15px;
+    color: navy;
+    font-weight: 400;
+    margin-top: 20px;
+}

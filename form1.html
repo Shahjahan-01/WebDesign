@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            border-radius: 5px;
+            padding: 100px;
+        }
+
+        .navbar {
+            background-color:rgb(243, 242, 242);
+            margin-top: 70px;
+            border-radius: 20px;
+            padding-bottom: 40px;
+            padding-top: 40px;
+            margin-left: 300px;
+            margin-right: 300px;
+            box-shadow: 0 8px 24px rgba(0.5,0.5,0.5,0.5);
+        }
+
+        .menu h1 {
+            color: #63c6ff;
+            display: flex;
+            margin:auto;
+            justify-content: center;
+            margin-bottom: 70px;
+            font-size: 70px;
+        }
+
+        label[for="nama_lengkap"] {
+            font-size: 30px;
+            display: flex;
+            margin:auto;
+            justify-content: center;
+            margin-right: 500px;
+            margin-bottom: 40px;
+            font-weight: 600;
+        }
+
+        label[for="password"] {
+            font-size: 30px;
+            display: flex;
+            margin:auto;
+            justify-content: center;
+            margin-right: 500px;
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
+
+        input[type="text"]{
+            display: flex;
+            margin:auto;
+            justify-content: center;
+            margin-left: 40px;
+            width: 90%;
+            margin-bottom: 30px;
+            border-radius: 6px;
+        }
+
+        input[type="Login"]{
+            background-color: #63c6ff;
+            color: white;
+            border-radius: 5px;
+            border: #63c6ff;
+            padding-top: 30px;
+            padding-left: 300px;
+            padding-bottom: 30px;
+            padding-right: 200px;
+            display: flex;
+            margin:auto;
+            justify-content: center;
+            margin-top: 50px;
+            cursor: pointer;
+            box-shadow: 0 8px 24px rgba(0.08,0.08,0.08,0.08);
+        }
+
+        .navbar p {
+            margin-left: 30px;
+            margin-top: 30px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="menu">
+                <h1>Login</h1>
+            <form action="">
+            <label for="nama_lengkap">Username</label>
+            <input type="text" id="nama_lengkap" name="nama_lengkap" placeholder="Username" style="height: 50px;"/>
+            <form action="">
+            <label for="password">Password</label>
+            <input type="text" id="nama_lengkap" name="nama_lengkap" placeholder="Password" style="height: 50px;"/>
+            <input type="login" value="Login" />
+            <p>Forget Password?</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
