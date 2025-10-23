@@ -45,10 +45,12 @@
             font-size: 30px;
             display: flex;
             margin:auto;
+
             justify-content: center;
             margin-right: 500px;
             margin-bottom: 40px;
             font-weight: 600;
+            
         }
 
         label[for="password"] {
@@ -64,6 +66,7 @@
         input[type="text"]{
             display: flex;
             margin:auto;
+            border: solid 1px rgb(165, 165, 165);
             justify-content: center;
             margin-left: 40px;
             width: 90%;
@@ -85,13 +88,20 @@
             justify-content: center;
             margin-top: 50px;
             cursor: pointer;
-            box-shadow: 0 8px 24px rgba(0.08,0.08,0.08,0.08);
+            box-shadow: 0 8px 24px rgba(0.04,0.04,0.04,0.04);
+            margin-bottom: 35px;
         }
 
         .navbar p {
             margin-left: 30px;
-            margin-top: 30px;
+            margin-top: 20px;
             cursor: pointer;
+        }
+
+        .navbar span {
+            margin-left: 250px;
+            cursor: pointer;
+            color: black;
         }
     </style>
 </head>
@@ -107,7 +117,9 @@
             <label for="password">Password</label>
             <input type="text" id="nama_lengkap" name="nama_lengkap" placeholder="Password" style="height: 50px;"/>
             <input type="login" value="Login" />
+            <span>don't have account? <b>sign in</b></span>
             <p>Forget Password?</p>
+            
             </div>
         </div>
     </div>

@@ -593,6 +593,11 @@ body {
     margin: auto;
     justify-content: space-evenly;
     width: 80%;
+    margin-top: 80px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .portoRPL h1 {
@@ -673,4 +678,358 @@ body {
     color: navy;
     font-weight: 400;
     margin-top: 20px;
+}
+
+
+/* ======== LAYOUT ======== */
+.program-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 60px 20px;
+  flex-wrap: nowrap;
+}
+
+.containerkartu{
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 30px;
+  flex-wrap: nowrap;
+  max-width: 1200px;
+}
+
+/* ======== CARD ======== */
+.kartu {
+  background-color: #f5f7fb;
+  border-radius: 25px;
+  padding: 25px;
+  width: 320px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.kartu:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.kartu h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 15px 0;
+  color: #000;
+}
+
+/* ======== PINK CARD ======== */
+.kartu.pink {
+  background-color: #ffe9e5;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+/* ======== IMAGE ======== */
+.kartu-img {
+  width: 100%;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+/* ======== LIST ======== */
+.kartu ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.kartu ul li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 8px;
+  font-size: 15px;
+  color: #333;
+}
+
+.kartu.pink img {
+    margin-top: 35px;
+    height: 400px;
+    width: 400px;
+    margin-left: -40px;
+}
+
+.kartu.pink ul li::before {
+  color: #f7b518;
+  position: absolute;
+  left: 0;
+}
+
+
+
+.kartu.pink ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.kartu.pink ul li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 8px;
+  font-size: 15px;
+  color: #333;
+  margin-left: -25px;
+}
+
+.kartu.pink ul li::before {
+  color: #f7b518;
+  position: absolute;
+  left: 0;
+}
+
+.karya {
+    color: navy;
+}
+
+.karya h1 {
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.karya p {
+    margin: auto;
+    justify-content: center;
+    display: flex;
+}
+
+.containersertifikat {
+  padding: 80px 60px;
+  text-align: center;
+}
+
+/* ====== JUDUL ====== */
+.judulsertifikat {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.judulsertifikat h2 {
+  font-size: 34px;
+  font-weight: 700;
+  color: #1a1a6d;
+  margin-bottom: 5px;
+}
+
+.judulsertifikat .biru {
+  color: #1a1a6d;
+}
+
+.judulsertifikat p {
+  color: #333;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+/* Garis kuning di bawah judul */
+
+
+/* ====== KONTEN (3 Kolom) ====== */
+.kontensertifikat {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  gap: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: nowrap;
+}
+
+/* ====== KOLOM ====== */
+.kolomsertifikat {
+  flex: 1;
+  text-align: left;
+  font-size: 15px;
+  color: #222;
+}
+
+.kolomsertifikat p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+/* ====== SUBJUDUL ====== */
+.subjudul {
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+/* ====== LIST ====== */
+.kolomsertifikat ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.kolomsertifikat ul li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 8px;
+}
+
+.kolomsertifikat ul li::before {
+  color: #f7b518;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* ====== GAMBAR ====== */
+.gambarsertifikat {
+  width: 130%;
+  border-radius: 10px;
+  transform: rotate(-2deg);
+  transition: transform 0.4s ease;
+  height: 420px;
+  margin-left: -90px;
+}
+
+.judulsertifikat h2 span {
+    font-weight: 700;
+}
+
+.judulsertifikat h2 {
+    font-weight: 500;
+}
+
+.judulsertifikat h2 {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 15px;
+}
+
+.judulsertifikat p {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+
+ul li {
+    color: gray;
+}
+
+.daftarcontainer {
+  text-align: center;
+  padding: 80px 50px;
+}
+
+/* ====== JUDUL ====== */
+.daftarjudul h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1a1a6d;
+  margin-bottom: 5px;
+}
+
+.daftarjudul p {
+  font-size: 15px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.garisjuduldaftar {
+  width: 100px;
+  height: 4px;
+  border-radius: 3px;
+  margin: 0 auto 50px auto;
+}
+
+/* ====== KONTEN ====== */
+.daftarkonten {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  flex-wrap: nowrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ====== KOLOM KIRI ====== */
+.daftarkiri {
+  flex: 1;
+  text-align: center;
+
+}
+
+.daftarkiri iframe {
+    border-radius: 20px;
+}
+
+.daftarkiri h3 {
+  color: #1a1a6d;
+  margin-bottom: 15px;
+}
+
+/* ====== KOLOM TENGAH ====== */
+.daftartengah {
+  flex: 1;
+  text-align: center;
+}
+
+.daftargambar {
+  width: 300px;
+  transition: transform 0.4s ease;
+}
+
+/* ====== KOLOM KANAN ====== */
+.daftarkanan {
+  flex: 1;
+  background-color: #f7b518;
+  border-radius: 20px;
+  padding: 70px 20px 70px 20px;
+  padding-left: 50px;
+  color: #fff;
+  text-align: left;
+  padding-right: -60px;
+}
+
+.daftarkanan h3 {
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.daftarkanan p {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+/* ====== TOMBOL ====== */
+.tomboldaftar {
+  background-color: #111;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.tomboldaftar:hover {
+  background-color: #2ecc71;
+  transform: translateY(-3px);
+}
+
+/* ====== FOOTER ====== */
+.daftarfooter {
+  margin-top: 60px;
+  font-size: 13px;
+  color: #555;
 }
