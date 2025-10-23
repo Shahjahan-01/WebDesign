@@ -502,15 +502,14 @@ body {
   margin-bottom: 10px;
 }
 
-<<<<<<< HEAD
-=======
+
+
 /* 🔸 Hapus garis oranye di bawah kata “3 Jurusan IT” */
 .jurusanIT h2::after {
   content: "";
   display: none;
 }
 
->>>>>>> 53b36aa553a1070ae2a29273bbf4a71089873264
 .jurusanIT p {
   color: #555;
   font-size: 1.1em;
@@ -588,7 +587,6 @@ body {
     margin-top: 20px;
     margin-left: -10px;
 }
-<<<<<<< HEAD
 
 .portoRPL {
     display: flex;
@@ -676,5 +674,3 @@ body {
     font-weight: 400;
     margin-top: 20px;
 }
-=======
->>>>>>> 53b36aa553a1070ae2a29273bbf4a71089873264
