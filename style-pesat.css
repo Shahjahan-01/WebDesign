@@ -297,7 +297,7 @@ body {
     padding: 10px;
     border-width: 2px;
    text-decoration: none;
-   margin-right: 130px;
+   margin-right: 250px;
    padding-left: 20px;
    cursor: pointer;
 }
@@ -346,7 +346,7 @@ body {
     padding: 10px;
     padding-left: 20px;
     border-radius: 5px;
-    margin-right: 180px;
+    margin-right: 300px;
     font-size: 15px;
 }
 
@@ -409,7 +409,7 @@ body {
     padding: 10px;
     padding-left: 20px;
     border-radius: 5px;
-    margin-right: 180px;
+    margin-right: 300px;
     font-size: 15px;
 }
 
