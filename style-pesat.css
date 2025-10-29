@@ -709,6 +709,8 @@ a {
   box-shadow: 0 5px 10px rgba(0,0,0,0.05);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   text-align: center;
+  padding-right: 40px;
+  padding-left: 40px;
 }
 
 .kartu:hover {
@@ -1033,3 +1035,185 @@ ul li {
   font-size: 13px;
   color: #555;
 }
+
+@media screen and (max-width:430px) {
+  /* Semua class diatur agar tampilan HP tidak rusak */
+  
+  .container,
+  .navbar,
+  .logo,
+  .menu,
+  .hero,
+  .kiri,
+  .kanan,
+  .kalimantan,
+  .sulawesi,
+  .sponsor,
+  .ITXPRO,
+  .papua,
+  .program-section,
+  .containerkartu,
+  .kartu,
+  .kartu-img,
+  .pink,
+
+  .containerIT,
+  .card,
+  .IT,
+  .berfokus,
+  .btn,
+  .karya,
+  .portofolio_TKJ,
+  .overflow1,
+  .left1,
+  .right1,
+  .portoTKJ,
+  .image,
+  .image2,
+  .image3,
+  .image4,
+  .portofolio_DKV,
+  .overflow,
+  .left,
+  .right,
+  .filter-button,
+  .filter-btn,
+  .container_galery,
+  .gambar,
+  .portofolio_RPL,
+  .overflow2,
+  .left2,
+  .right2,
+  .portoRPL,
+  .image01,
+  .image02,
+  .image03,
+  .image04,
+  .containerend,
+  .judulsertifikat,
+  .biru,
+  .garisjudul,
+  .kontensertifikat,
+  .kolomsertifikat,
+  .gambarsertifikat,
+  .daftarcontainer,
+  .daftarjudul,
+  .teksbiru,
+  .garisjuduldaftar,
+  .daftarkonten,
+  .daftarkiri,
+  .daftartengah,
+  .daftarkanan,
+  .tomboldaftar,
+  .hub,
+  .kotak {
+    
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+   /* text-align: center;  */
+    justify-content: center; 
+  }
+
+  .menu ul{
+    flex-direction: column;
+    text-align: center;
+    gap: 3px;
+  }
+
+  .hub .kotak{
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .hero {
+    flex-direction: column;
+
+  }
+
+  .sulawesi {
+
+    margin: auto;
+  }
+
+  .sponsor  h3 {
+    margin: auto;
+  }
+
+  .hero img {
+    width: 100%;
+  }
+
+  .kalimantan img {
+    width: 100%;
+  }
+
+  .program-section{
+    width: 75%;
+    margin-left: -10px;
+  }
+
+  .jurusanIT {
+    width: 100%;
+    margin-left: -10px;
+  }
+
+  .jurusanIT h2{
+    margin: auto;
+        margin-left: 60px;
+  }
+
+  .jurusanIT p{
+    margin: auto;
+    margin-bottom: 7px;
+    margin-left: 40px;
+  }
+
+  .karya h1 {
+    text-align: center;
+    margin-right: -70px;
+  }
+
+ .karya p {
+    text-align: center;
+    margin-right: -70px;
+ }
+
+ .portofolio_TKJ{
+  flex-direction: column;
+    text-align: center;
+    margin-right: -80px;
+    margin-left: 25px;
+ }
+
+ .left1 h3 {
+  padding-right: 300px;
+ }
+
+ .right1 iframe {
+  width: 320px;
+  height: 200px;
+ }
+
+ .portoTKJ {
+  margin-right: -40px;
+ }
+
+
+}
+
+ .portofolio_DKV{
+  flex-direction: column;
+    text-align: center;
+    margin-right: -80px;
+    margin-left: 25px;
+ }
+
+ .right h3 {
+  padding-right: 300px;
+ }
+
+ .left iframe {
+  width: 320px;
+  height: 200px;
+ }
