@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Variabel</title>
+    <style>
+        :root {
+            --warna-primary : #4caf50;
+            --warna-sekunder : #2e7d32;
+            --warna-teks : white;
+            --padding :10px;
+            --radius : 10px;
+            --warna-hover : rgb(0, 95, 8);
+            --size-isi : 12pt;
+        }
+
+        body {
+            font-family: arial;
+            background-color: var(--warna-primary);
+            color: var(--warna-teks);
+            padding: var(--padding);
+        }
+
+        button{
+            padding: var(--padding);
+            border-radius: var(--radius);
+            color: var(--warna-teks);
+            background-color: var(--warna-sekunder);
+            border: none;
+        }
+
+        button:hover{
+            background-color: var(--warna-hover);
+            cursor: pointer;
+        }
+
+        p {
+            font-size: var(--size-isi);
+        }
+    </style>
+</head>
+<body>
+    <h1>Belajar Variabel CSS</h1>
+    <button>Klik Saya</button>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione molestiae veritatis fugiat nobis iure! Nostrum architecto perspiciatis quidem modi ea dolores odit sint. Itaque maxime quam aliquam inventore. Itaque, natus laudantium dolorum exercitationem commodi corporis possimus temporibus est reiciendis quidem.</p>
+</body>
+</html>

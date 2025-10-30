@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validasi</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: arial;
+            background-color: white;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .form-container{
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+            
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .form-group{
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #444;
+        }
+
+        input {
+            padding: 10px;
+            width: 100%;
+            border: 1.5px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+            outline: none;
+            transition: 0.3s;
+        }
+
+        input:focus{
+            border-color: green;
+            
+        }
+
+        button {
+            width: 100%;
+            background: #4caf50;
+            cursor: pointer;
+            border-radius: 5px;
+            padding: 12px;
+            border: none;
+            font-size: 16px;
+            font-weight: bold;
+            transition: 0.3s;
+            color: white;
+        }
+
+        .error{
+            color: red;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Form Pendaftaran</h2>
+        <form id="myForm" action="">
+            <div class="form-group">
+                <label for="name">Nama</label>
+                <input type="text" id="name" placeholder="Masukkan nama lengkap" />
+                <div class="error" id="nameError"></div>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Masukkan email" />
+                <div class="error" id="emailError"></div>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Minimal 6 karakter" />
+                <div class="error" id="passwordError"></div>
+            </div>
+            <button type="submit">Daftar</button>
+        </form>
+    </div>
+    <script>
+        const form = document.getElementById("myForm");
+        const nameInput = document.getElementById("name");
+        const emailInput = document.getElementById("email");
+        const passwordInput = document.getElementById("password");
+        
+        const nameError = document.getElementById("nameError");
+        const emailError = document.getElementById("emailError");
+        const passwordError = document.getElementById("passwordError");
+
+        form.addEventListener("submit", function(event){
+            event.preventDefault();
+
+            nameError.textContent ="";
+            emailError.textContent ="";
+            passwordError.textContent ="";
+
+            if (nameInput.value.trim() === "") {
+            nameError.textContent = "nama tidak boleh kosong";
+            }
+
+            const emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+            if (emailInput.value.trim() === "") {
+            emailError.textContent = "email tidak boleh kosong";
+            } else if (!emailInput.value.match(emailPattern)) {
+                emailError.textContent = "format email tidak valid"
+            }
+
+            if (passwordInput.value.trim() === "") {
+            passwordError.textContent = "password tidak boleh kosong";
+            } else if (passwordInput.value.length < 6) {
+                passwordError.textContent = "password minimal 6 karakter"
+            }
+        });
+
+        
+    </script>
+</body>
+</html>
